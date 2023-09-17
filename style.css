@@ -1,0 +1,50 @@
+/*
+Meme Generator Styles 
+1. Center align
+2. Margin top 20px
+*/
+.memeGenerator {
+  margin: 20px auto; 
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+Label Styles
+1. Left align
+2. Bold
+3. Font size big
+4. Margin top 10px
+*/
+.memeGenerator label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/*
+Input Styles
+1. Width 100%
+*/
+
+.memeGenerator input{
+    width: 100%;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+/*
+meme style
+1. Width 100%
+*/
+#meme {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#topTextInputColorList, #bottomTextInputColorList {
+    display: none;
+}

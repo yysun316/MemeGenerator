@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Adjust the width of view -->
+    <meta name="viewprot" content="width=device-width, initial-scale=1.0">
+    <title>Meme Genrator :))</title>
+    <!-- Link to the style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Create a class and put generator inside -->
+    <div class="memeGenerator">
+        <h1> Meme Generator </h1>
+        <label> Select a victim</label>
+        <input type="file" id="imageFileInput">
+        <label> Top Text </label>
+        <input type="text" id="topTextInput">
+        <button id="topTextInputColor"> Color </button>
+        <ul id="topTextInputColorList">
+            <li> <button class="color" style="background-color: red;">Red</button> </li>
+            <li> <button class="color" style="background-color: blue;">Blue</button> </li>
+            <li> <button class="color" style="background-color: green;">Green</button> </li>
+            <li> <button class="color" style="background-color: yellow;">Yello</button> </li>
+            <li> <button class="color" style="background-color: black;">Black</button> </li>
+            <li> <button class="color" style="background-color: white;">White</button> </li>
+        </ul>
+        <label> Bottom Text </label>
+        <input type="text" id="bottomTextInput">
+
+
+        <canvas id="meme"></canvas>
+    </div>
+    <script src="main.js"> </script>
+</body>
+
+</html>
